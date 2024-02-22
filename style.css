@@ -1,0 +1,68 @@
+body {
+	background-color: black ;
+	position: relative;
+    height: 95vh;
+}
+
+main {
+	background-color: #222222;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	width: 250px;
+	height: 420px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.margin {
+	margin: 20px;
+}
+
+img {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+.texts {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 20px;
+	color: #eeeeee;
+	margin: 5px 0px;
+}
+
+h2 {
+	font-size: 12px;
+	color: #9ACD32;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+h3 {
+	font-size: 8px;
+	color: #bbbbbb;
+}
+
+.linkButtons button {
+	width: 95%;
+	height: 30px;
+	background-color: #444444;
+	border: none;
+	border-radius: 7px;
+	margin: 5px 5px;
+	color: #eeeeee;
+	font-size: 70%;
+	font-weight: bold;
+}
+
+.linkButtons button:hover {
+	background-color: #9ACD32;
+	cursor: pointer;
+	color: black;
+
+}
