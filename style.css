@@ -53,19 +53,26 @@ h3 {
 	margin: 7px 0px;
 }
 
-.linkButtons button {
+.linkButtons {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
+}
+
+.linkButtons a {
+	text-decoration: none;
 	width: 95%;
-	height: 30px;
 	background-color: #444444;
-	border: none;
 	border-radius: 7px;
 	margin: 5px 5px;
+	padding: 8px;
 	color: #eeeeee;
+	font-family: sans-serif;
 	font-size: 70%;
 	font-weight: bold;
 }
 
-.linkButtons button:hover {
+.linkButtons a:hover {
 	background-color: #9ACD32;
 	cursor: pointer;
 	color: black;
